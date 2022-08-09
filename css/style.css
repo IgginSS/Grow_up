@@ -1,0 +1,152 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    font-size: 16px;
+    font-weight: normal;
+}
+header {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.container_header {
+    width:1070px ;
+    margin: 0 auto;
+}
+
+.header_flex, .footer_flex, .container_about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li {
+    display: inline-block;
+    
+}
+.nav_li:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+
+.nav_link:hover {
+    color: black;
+    transition: 300ms;
+}
+.button {
+    width: 212px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button_orange {
+    background-color: #FF7143;
+
+}
+
+.button_orange:hover {
+    background-color: #fd541c;
+    transition: 500ms;
+}
+
+.container_about {
+    max-width: 1440px;
+    margin: 104px auto 85px;
+}
+.about_left {
+    margin-left: 191px;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    }
+
+.about_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 464px;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+.button_get {
+background-color:  #5454D4;
+}
+
+.button_get:hover {
+    background-color: white;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    transition: 600ms;
+}
+
+.button_try {
+    background-color: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.button_try:hover {
+    background-color: #5454D4;
+    color: white;
+    transition: 600ms;
+}
+
+footer {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 53px 0;
+}
+
+.container_footer {
+    width: 1070px ;
+    margin: 0 auto;
+}
+
+.nav_footer_li {
+    display: inline-block;
+    
+}
+.nav_footer_li:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.nav_footer_link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+
+.nav_footer_link:hover {
+    color: black;
+    transition: 600ms;
+}
+
